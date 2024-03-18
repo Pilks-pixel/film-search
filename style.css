@@ -11,5 +11,26 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.container {
+    max-width: 1200px;
+    width: 90%;     
+    margin: 0 auto;
+}
+
+.row,
+.row__movie-headings,
+.row__movie-info, .film-container {
+    display: flex;
+    gap: 10px;
+}
+
+.row, .film-container  {
+    flex-direction: column;
+}
+
+.row img{
+    max-width: 99px;
+}
+
 
 
